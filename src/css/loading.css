@@ -1,0 +1,25 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 1rem;
+}
+
+.loading-spinner {
+  border: 5px solid rgba(8, 145, 178, 0.2);
+  border-top: 5px solid #06b6d4;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.6);
+}
+
+.loading-text {
+  color: #06b6d4;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+}
